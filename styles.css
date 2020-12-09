@@ -1,0 +1,90 @@
+
+/*  акцент #2196F3 */
+/*  белый #FFFFFF */
+/*  черный #212121 */
+/* текст <p> серый #757575 */
+/* footer adres color: rgba(255, 255, 255, 0.6); */
+
+
+/* head  background: #FFFFFF; */
+/*  footer  background: #2F303A; */
+/* hero  background: #2F303A */
+/* footer section background: #F5F4FA; */
+/*  background: #E5E5E5; */
+
+body {
+    background-color: #FFFFFF;;
+    color:  #757575;
+}
+.logo-white {
+    color: #212121;
+}
+.logo-bl {
+    color:#2196F3;
+}
+.list {
+    list-style: none;
+}
+/* site-nav */
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color:#2196F3;
+}
+/* adress-nav */
+.adress-nav .link {
+    color: #757575;;
+}
+.adress-nav .link:hover, 
+.adress-nav .link:focus {
+    color:#2196F3;
+}
+/* hero */
+.hero {
+    background-color:#2F303A;
+}
+.hero .hero-title {
+    color: #FFFFFF;
+}
+.hero .hero-button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+/* section */
+.section {
+    background-color:#FFFFFF;;
+}
+.section .section-title {
+    color: #212121;
+}
+.section-title-name {
+    color: #212121;
+}
+.section-team {
+    background-color:#F5F4FA;
+}
+.section-team  .section-title {
+    color: #212121;
+}
+/* footer */
+.footer {
+    background-color: #2F303A;
+}
+.logo-black {
+    color: #FFFFFF;
+}
+.footer-address {
+    color: #FFFFFF;
+}
+
+.filter-button {
+    background-color:#F5F4FA;
+    color: #212121;
+}
+.filter-button:hover, 
+.filter-button:focus {
+    background-color:#2196F3;
+    color: #FFFFFF;
+}
