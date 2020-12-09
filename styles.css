@@ -1,90 +1,83 @@
-
-/*  акцент #2196F3 */
-/*  белый #FFFFFF */
-/*  черный #212121 */
-/* текст <p> серый #757575 */
-/* footer adres color: rgba(255, 255, 255, 0.6); */
-
-
-/* head  background: #FFFFFF; */
-/*  footer  background: #2F303A; */
-/* hero  background: #2F303A */
-/* footer section background: #F5F4FA; */
-/*  background: #E5E5E5; */
+:root {
+    --primary-text-color: #757575;
+    --accent-text-color:#2196F3;
+    --title-text-color:#212121;
+    --secondary-text-color: #FFFFFF;
+}
 
 body {
-    background-color: #FFFFFF;;
-    color:  #757575;
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
 }
 .logo-white {
-    color: #212121;
+    color: var(--title-text-color);
 }
 .logo-bl {
-    color:#2196F3;
+    color: var(--accent-text-color);
 }
 .list {
     list-style: none;
 }
 /* site-nav */
 .site-nav .link {
-    color: #212121;
+    color: var(--title-text-color);
 }
 .site-nav .link:hover, 
 .site-nav .link:focus {
-    color:#2196F3;
+    color: var(--accent-text-color);
 }
 /* adress-nav */
 .adress-nav .link {
-    color: #757575;;
+    color: var(--primary-text-color);
 }
 .adress-nav .link:hover, 
 .adress-nav .link:focus {
-    color:#2196F3;
+    color: var(--accent-text-color);
 }
 /* hero */
 .hero {
     background-color:#2F303A;
 }
 .hero .hero-title {
-    color: #FFFFFF;
+    color: var(--secondary-text-color);
 }
 .hero .hero-button {
     background-color: #2196F3;
-    color: #FFFFFF;
+    color: var(--secondary-text-color);
 }
 /* section */
 .section {
     background-color:#FFFFFF;;
 }
 .section .section-title {
-    color: #212121;
+    color: var(--title-text-color);
 }
 .section-title-name {
-    color: #212121;
+    color: var(--title-text-color);
 }
 .section-team {
     background-color:#F5F4FA;
 }
 .section-team  .section-title {
-    color: #212121;
+    color: var(--title-text-color);
 }
 /* footer */
 .footer {
     background-color: #2F303A;
 }
 .logo-black {
-    color: #FFFFFF;
+    color: var(--secondary-text-color);
 }
 .footer-address {
-    color: #FFFFFF;
+    color: var(--secondary-text-color);
 }
 
 .filter-button {
     background-color:#F5F4FA;
-    color: #212121;
+    color: var(--title-text-color);
 }
 .filter-button:hover, 
 .filter-button:focus {
     background-color:#2196F3;
-    color: #FFFFFF;
+    color: var(--secondary-text-color);
 }
