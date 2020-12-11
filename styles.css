@@ -39,10 +39,13 @@ body {
     font-size: 14px;
     line-height: 1.14;
 }
+
 .site-nav .link:hover, 
-.site-nav .link:focus{
+.site-nav .link:focus, .current{
     color: var(--accent-text-color);
 }
+
+
 
 /* adress-nav */
 .adress-nav .link {
