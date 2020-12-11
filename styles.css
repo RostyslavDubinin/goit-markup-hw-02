@@ -44,10 +44,6 @@ body {
     color: var(--accent-text-color);
 }
 
-.site-nav .link:active {
-color:green;
-}
-
 /* adress-nav */
 .adress-nav .link {
     color: var(--primary-text-color);
