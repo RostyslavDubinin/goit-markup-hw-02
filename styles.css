@@ -19,6 +19,7 @@ body {
     font-weight: 400;
     
     
+    
 }
 .logo-white {
     color: var(--title-text-color);
@@ -47,11 +48,13 @@ body {
 }
 
 .site-nav .link:hover, 
-.site-nav .link:focus, .current{
+.site-nav .link:focus {
     color: var(--accent-text-color);
     text-decoration: none;
 }
-
+.site-nav .link.current {
+    color: var(--accent-text-color);
+}
 
 
 /* adress-nav */
@@ -157,12 +160,15 @@ body {
 }
 .footer-address {
     color: var(--secondary-text-color);
+    font-style: inherit;
 }
 .footer .footer-address-nav {
     color: var(--primary-text-color);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    
+
 }
 .link:hover, 
 .link:focus {
