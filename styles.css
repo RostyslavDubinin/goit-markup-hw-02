@@ -20,6 +20,7 @@ body {
     
     
     
+    
 }
 .logo-white {
     color: var(--title-text-color);
@@ -33,10 +34,18 @@ body {
     color: var(--accent-text-color);
 }
 .list {
+    padding: 0px;
+    margin: 0px;
     list-style: none;
-    
+}   
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
     
 }
+    
+
 /* site-nav */
 .site-nav .link {
     color: var(--title-text-color);
@@ -74,6 +83,7 @@ body {
 /* hero */
 .hero {
     background-color: var(--background-color-hero);
+    text-align: center;
 }
 .hero .hero-title {
     color: var(--secondary-text-color);
@@ -83,15 +93,20 @@ body {
     letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 30px;
 
 }
 .hero .hero-button {
     background-color: var(--background-color-hero-button);
-    color: var(--secondary-text-color);
+    color: var(--secondary-text-color); 
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;
 }
 
 .section-title {
@@ -101,6 +116,8 @@ body {
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 
@@ -108,7 +125,7 @@ body {
 /* Особености */
 
 .section-features {
-    background-color: var(--background-color-section);
+    background-color: var(--background-color-section);  
 }
 .section-features .features-title-name {
     color: var(--title-text-color);
@@ -117,11 +134,15 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
-.features-title-name .features-name { 
+.section-features .features-name { 
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;  
+    letter-spacing: 0.03em;
+    margin-top: 0px;
+    margin-bottom: 0px;  
 }
 
 /* Чем мы занимаемся */
@@ -139,11 +160,16 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+    margin-top: 30px;
+    margin-bottom: 10px; 
 }
-.workers-title-name .workers-dutie {  
+.section-workers p {  
     font-size: 16px;
     line-height: 1.18;
-    letter-spacing: 0.03em;  
+    letter-spacing: 0.03em; 
+    margin-top: 0px;
+    margin-bottom: 0px; 
+     
 }
 
 /* footer */
@@ -157,6 +183,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
+   
 }
 .footer-address {
     color: var(--secondary-text-color);
@@ -168,6 +195,7 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     
+    
 
 }
 .link:hover, 
@@ -175,18 +203,26 @@ body {
     color: var(--accent-text-color);
 }
 /* portfolio */
-
+.section-portfolio-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 .section-portfolio .portfolio-title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    
 }
 .section-portfolio .portfolio-title-name {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
 .filter-button {
@@ -196,6 +232,9 @@ body {
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
+    border-radius: 4px;
+    padding: 6px 22px;
+    min-width: 200px;
 }
 .filter-button:hover, 
 .filter-button:focus {
