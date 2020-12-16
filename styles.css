@@ -16,12 +16,15 @@ body {
     background-color: var(--background-color-body);
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
-    font-weight: 400;
-    
-    
-    
-    
+    font-weight: 400
 }
+
+.list {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}   
+
 .logo-white {
     color: var(--title-text-color);
     font-family: Raleway, sans-serif;
@@ -33,11 +36,7 @@ body {
 .logo-bl {
     color: var(--accent-text-color);
 }
-.list {
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-}   
+
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -46,12 +45,17 @@ body {
     padding-right: 15px;
     
 }
+header>.container {
+    display: flex;
+    align-items: center;
     
-
+  
+}
 /* site-nav */
 
 .site-nav {
     display: flex;
+    margin-left: 93px;
 }
 
 
@@ -60,14 +64,18 @@ body {
 }
 
 .site-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: var(--title-text-color);
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    
 }
 
 .site-nav .link:hover, 
@@ -81,8 +89,21 @@ body {
 
 
 /* adress-nav */
+.adress-nav {
+    display: flex;
+    margin-left: auto;
+} 
+
+.adress-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
 .adress-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: var(--primary-text-color);
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -189,33 +210,53 @@ body {
 /* footer */
 .footer {
     background-color: var(--background-color-footer);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
+
 .logo-black {
+    display: block;
+    margin-bottom: 20px;
+
     color: var(--secondary-text-color);
     font-family: Raleway,sans-serif;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
-   
 }
+
 .footer-address {
     color: var(--secondary-text-color);
     font-style: inherit;
+    margin-bottom: 9px;
 }
+
 .footer .footer-address-nav {
     color: var(--primary-text-color);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    
-    
+}
 
+.adress-nav-footer .link {
+    color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.adress-nav-footer .mailto-link {
+    display: block;
+    margin-bottom: 9px;
 }
 .link:hover, 
 .link:focus {
     color: var(--accent-text-color);
 }
+
 /* portfolio */
 .section-portfolio-title {
     margin-top: 0px;
